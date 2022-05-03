@@ -1,0 +1,153 @@
+html,body{
+    margin:0;
+    height:100%;
+    width:100%;
+    background-color: #282828;
+}
+.button{
+    position: relative;
+    text-align: center;
+    top: 45vh;
+    width: 100vh;
+    left: 49vh;
+}
+.menu{
+    text-align: center;
+    height: 18%;
+    font-family: 'Garamond';
+    font-size:30px;
+    padding-top: 6vh;
+}
+.menu ul{margin: 0;}
+
+.menu ul li{
+	border-radius: 10px;
+	padding:5px;
+	display: inline;
+	padding-left:0px;	
+}
+
+.menu ul li:hover { text-decoration: underline; }
+.menu ul li a:hover{ color: #ff9a17; } /* изменение цвета при наведении */
+
+.menu li:after {
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.menu a{
+    text-decoration:none;
+    color: rgb(211, 211, 211);
+    padding: 5px;
+}
+
+h1{
+    margin-top: 10%;
+    height: 50%;
+    font-family: 'Garamond';
+    text-align: center;
+    color: rgb(211, 211, 211);
+	font-size:50px;
+}
+
+h2{
+    margin-top: 5px;
+    margin-bottom: 3%;
+    height: 10%;
+    font-family: 'Garamond';
+    text-align: center;
+    color: rgb(211, 211, 211);
+    font-size: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#word{font-weight: bold; font-size: 30px; letter-spacing: 2px; text-decoration: underline; color:  #ff9a17;}
+#word2{font-weight: bold; font-size: 25px; letter-spacing: 2px;  color:  #ff9a17;}
+
+.vinoska{
+    font-style: italic;
+    margin: 5vh; 
+    margin-left: 10vw; 
+    border: 2px solid #ff9a17; 
+    padding: 5px; 
+    border-style: dashed;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Geneva';
+    color: rgb(211, 211, 211);
+    width: 80%;
+}
+
+.vinoska p{margin: 0;}
+
+.text{    
+    text-align: justify;
+    width: 80%;
+    padding-left: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    color: rgb(211, 211, 211);
+    font-family: 'Geneva';
+    border-left: 4px solid #ff9a17;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#text2{
+    text-align: justify;
+    width: 80%;
+    padding-left: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    color: rgb(211, 211, 211);
+    font-family: 'Geneva';
+    border-left: 4px solid #ff9a17;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:700px;
+    max-height:700px;
+}
+
+.buttonup {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 20px;
+    width: 80px; 
+    height: 20px;
+    position:fixed;
+    bottom:20px;
+    right:50px;
+}
+
+.podval{
+    margin-top: 12%;
+    font-size: 20px;
+    text-align: center;
+	height: 10%;
+    width:100%;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.podval p{
+    font-family: 'Garamond';
+    border: 2px solid #ff9a17;
+    padding: 5px;
+    color:rgb(211, 211, 211);
+}
